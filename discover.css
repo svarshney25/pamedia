@@ -8,7 +8,92 @@
 
 }
 
-/* tesla */
+ .discoverheading img {
+    position: relative;
+    width:101.20%;
+    height:70%;
+    margin: 0px;
+    margin-top: -150px;
+    margin-left:-10px;
+    padding: 0px;
+    border:0px;
+    opacity: 37%;
+    left:0px;
+    top:0px;
+}
+
+#rectangle{
+    position:relative;
+    border-radius: 55px;
+    background:white;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+    left:570px;
+    top:-280px;
+    opacity:60%;
+  }
+  
+.name{
+    position:relative;
+    left:710px;
+    top:-365px;
+}
+
+ul {
+    z-index:1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #175873;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  li {
+    float: right;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #175873;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #3e778f;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tesla
 .tesla img{
     width:60%;
     height:60%;
@@ -67,4 +152,4 @@
      margin-top:200px;
      margin-left:1075px;
      margin-right:25px;
-}
+} 
