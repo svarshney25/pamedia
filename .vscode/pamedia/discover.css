@@ -1,3 +1,8 @@
+body{
+  background-color:#D2CCCC;
+  overflow-x:hidden;
+}
+
 #headers {
     /* font-family: sans-serif; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -10,7 +15,6 @@
 
  .discoverheading img {
     position: relative;
-    /* object-fit:cover; */
     width:101.20%;
     height:70%;
     margin: 0px;
@@ -37,8 +41,32 @@
   
 .name{
     position:relative;
-    left:710px;
-    top:-365px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #175873;
+    line-height:1.5;
+    font-weight:100;
+    font-size:25px;
+    left:660px;
+    top:-394px;
+}
+
+.prompt{
+  position:relative; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height:1.5;
+  font-weight:40;
+  font-size:30px;
+  left:440px;
+  top:-400px;
+  color:white;
+ 
+}
+
+.navimg {
+  align-items: left;
+  margin-left: 40px;
+  width: 60px;
+  height: 50px;
 }
 
 ul {
@@ -46,12 +74,13 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-left: -10px;
+    margin-top: -10px;
     overflow: hidden;
     background-color: #175873;
-    position:fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 101.5%;
   }
 
   li {
@@ -76,6 +105,8 @@ ul {
   }
 
  
+
+
 /* tesla
 .tesla img{
     width:60%;
@@ -95,7 +126,7 @@ ul {
 }
 
 /* hyundai */
-.hyundai img{
+/* .hyundai img{
     width: 60%;
     height:60%;
     transform:scaleX(-1);
@@ -117,7 +148,7 @@ ul {
 }
 
 /* kia ev6 */
-.kia img{
+/* .kia img{
     width:60%;
     height:60%;
     position:relative;
@@ -135,4 +166,4 @@ ul {
      margin-top:200px;
      margin-left:1075px;
      margin-right:25px;
-} 
+}  */ 
