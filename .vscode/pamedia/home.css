@@ -57,6 +57,7 @@ h3 {
   position: absolute;
   text-align: left;
   line-height: 1.5;
+  letter-spacing: -5px;
   font-size: 90px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   bottom: 450px;
@@ -68,6 +69,7 @@ h3 {
   position: absolute;
   text-align: left;
   line-height: 1.5;
+  letter-spacing: 2px;
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   bottom: 370px;
