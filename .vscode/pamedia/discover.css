@@ -95,7 +95,147 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
+  /* TESLA */
+  .tesla img {
+    position:relative;
+    transform:scaleX(-1);
+    margin:0px;
+    border:0px;
+    padding:0px;
+    left:100px;
+    top:-100px;
+    width:35%;
+    height:35%;
+}
+.teslatext{
+  position:relative;
+  top:-425px;
+  left:1060px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+  font-size:25px;
+  font-weight:100px;
+  margin:0;
+
+}  
+.teslainfotext{
+  position:relative;
+  top:-440px;
+  left:-175px; 
+  text-align:right;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+  font-size:20px;
+  font-weight:unset;
+  margin:0;
+}
+
+/* KIA */
+.kia img {
+  position:relative;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:815px;
+  top:-325px;
+  width:35%;
+  height:35%;
+}
+
+.kiatext{
+position:relative;
+top:-650px;
+left:100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:25px;
+font-weight:100px;
+margin:0;
+
+}  
+.kiainfotext{
+position:relative;
+top:-650px;
+left:100px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:20px;
+font-weight:unset;
+margin:0;
+}
+
+/* HYUNDAI */
+.hyundai img {
+  position:relative;
+  transform:scaleX(-1);
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:100px;
+  top:-490px;
+  width:35%;
+  height:35%;
+}
+
+.hyundaitext{
+position:relative;
+top:-780px;
+left:952px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:25px;
+font-weight:100px;
+margin:0;
+
+}  
+.hyundaiinfotext{
+position:relative;
+text-align:right;
+top:-765px;
+left:-175px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:20px;
+font-weight:unset;
+margin:0;
+}
+
+/* TOYOTA bZ4X */
+.toyota img {
+  position:relative;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:750px;
+  top:-670px;
+  width:42%;
+  height:42%;
+}
+
+.toyotatext{
+position:relative;
+top:-1060px;
+left:100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:25px;
+font-weight:100px;
+margin:0;
+
+}  
+.toyotainfotext{
+position:relative;
+text-align:left;
+top:-1030px;
+left:100px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:20px;
+font-weight:unset;
+margin:0;
+}
+
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #3e778f;
@@ -104,13 +244,9 @@ ul {
  /*i adding this comment so i can commit hhb e*/
 
 
-/* tesla
-.tesla img{
-    width:60%;
-    height:60%;
-    
-}
+/* tesla*/
 
+/*
 .tesla-text{
     color:#366581;
     font-style: normal;
