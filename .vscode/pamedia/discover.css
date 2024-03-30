@@ -98,18 +98,29 @@ ul {
 
   /* TESLA */
   .tesla img {
-    z-index:2;
+    z-index:0;
     position:relative;
-    transform:scaleX(-1);
+    /* transform:scaleX(-1); */
     margin:0px;
     border:0px;
     padding:0px;
-    left:100px;
-    top:-100px;
-    width:38%;
-    height:38%;
+    left:-10px;
+    top:-282px;
+    width:102%;
+    height:100%;
 }
-.tesla img.glow {
+.teslalogo img{
+  z-index:0;
+  position:relative;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:550px;
+  top:-575px;
+}
+
+
+/* .tesla img.glow {
   z-index:1;
   transform: scale(1.01) translate(-50%, -50%);
   -webkit-transform: scale(1.01) translate(-50%, -50%);
@@ -121,11 +132,12 @@ ul {
 }
 .tesla img.main:hover ~ img.glow {
   opacity:1;
-}
+} */
+
 .teslatext{
   position:relative;
-  top:-425px;
-  left:1020px;
+  top:-1400px;
+  left:1115px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   color:#175873;
@@ -136,8 +148,8 @@ ul {
 }  
 .teslainfotext{
   position:relative;
-  top:-440px;
-  left:-175px; 
+  top:-1425px;
+  left:-80px; 
   text-align:right;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:black;
@@ -149,16 +161,29 @@ ul {
 /* KIA */
 .kia img {
   position:relative;
-  z-index: 2;
+  z-index: -1;
   margin:0px;
   border:0px;
   padding:0px;
-  left:815px;
-  top:-325px;
-  width:37%;
-  height:37%;
+  left:-10px;
+  top:-870px;
+  width:103%;
+  height:100%;
 }
-.kia img.glow {
+.kialogo img{
+  z-index:3;
+  position:relative;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:700px;
+  top: -1250px;
+  height:12%;
+  width:12%;
+  opacity:80%;
+
+}
+/* .kia img.glow {
   z-index:1;
   transform: scale(1.05) translate(-50%, -50%);
   -webkit-transform: scale(1.05) translate(-50%, -50%);
@@ -170,12 +195,12 @@ ul {
 }
 .kia img.main:hover ~ img.glow {
   opacity:1;
-}
+} */
 
 .kiatext{
 position:relative;
-top:-650px;
-left:100px;
+top: -2100px;
+left:75px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 color:#175873;
@@ -186,8 +211,8 @@ margin:0;
 }  
 .kiainfotext{
 position:relative;
-top:-650px;
-left:100px; 
+top:-2100px;
+left:75px; 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color:black;
 font-size:20px;
