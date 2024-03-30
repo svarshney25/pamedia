@@ -106,8 +106,8 @@ ul {
     padding:0px;
     left:100px;
     top:-100px;
-    width:35%;
-    height:35%;
+    width:38%;
+    height:38%;
 }
 .tesla img.glow {
   z-index:1;
@@ -116,7 +116,7 @@ ul {
   filter: brightness(0) invert(1) blur(5px);
   -webkit-filter: brightness(0) invert(1) blur(5px);
   transform:scaleX(-1.05);
-  left:-430px;
+  left:-475px;
   opacity:0;
 }
 .tesla img.main:hover ~ img.glow {
@@ -155,8 +155,8 @@ ul {
   padding:0px;
   left:815px;
   top:-325px;
-  width:35%;
-  height:35%;
+  width:37%;
+  height:37%;
 }
 .kia img.glow {
   z-index:1;
@@ -164,8 +164,8 @@ ul {
   -webkit-transform: scale(1.05) translate(-50%, -50%);
   filter: brightness(0) invert(1) blur(5px);
   -webkit-filter: brightness(0) invert(1) blur(5px);
-  left:560px;
-  top:-120px;
+  left:550px;
+  top:-105px;
   opacity:0;
 }
 .kia img.main:hover ~ img.glow {
@@ -216,7 +216,7 @@ margin:0;
   -webkit-filter: brightness(0) invert(1) blur(5px);
   transform: scaleX(-1.05);
   left:-430px;
-  top:-480px;
+  top:-483px;
   opacity:0;
 }
 .hyundai img.main:hover ~ img.glow {
@@ -290,6 +290,60 @@ position:relative;
 text-align:left;
 top:-1030px;
 left:100px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:black;
+font-size:20px;
+font-weight:unset;
+margin:0;
+}
+
+/* LUCID AIR PURE AWD */
+ .lucid img{
+  position:relative;
+  z-index:2;
+  transform:scaleX(-1);
+  margin:0px;
+  border:0px;
+  padding:0px;
+  left:50px;
+  top:-940px;
+  width:43%;
+  height:43%;
+}
+
+.lucid img.glow {
+  z-index:1;
+  transform: scale(1.06) translate(-50%, -50%);
+  -webkit-transform: scale(1.06) translate(-50%, -50%);
+  filter: brightness(0) invert(1) blur(5px);
+  -webkit-filter: brightness(0) invert(1) blur(5px);
+  transform: scaleX(-1.06);
+  margin:0px;
+  left:-600px;
+  top:-940px;
+  opacity:0;
+}
+.lucid img.main:hover ~ img.glow {
+  opacity:1;
+}
+
+.lucidtext{
+position:relative;
+top:-1270px;
+left:910px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+color:#175873;
+font-size:25px;
+font-weight:100px;
+margin:0;
+
+}  
+.lucidinfotext{
+position:relative;
+text-align:right;
+top:-1250px;
+left:-175px; 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color:black;
 font-size:20px;
